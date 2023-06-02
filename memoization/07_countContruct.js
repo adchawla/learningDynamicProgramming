@@ -31,11 +31,11 @@ countConstruct = (target, wordBank, memo = {}) => {
 // Memoization:
 // time: O(n * m2)
 
-console.log(countConstruct('abcdef', ['ab', 'abc', 'cd', 'def', 'abcd']));    // true -> 'abc' + 'def'
-console.log(countConstruct('abcdef', ['ab', 'abc', 'cd', 'def', 'abcd', 'ef', 'c']));    // true -> 'abc' + 'def'
-console.log(countConstruct('skateboard', ['bo', 'rd', 'ate', 't', 'ska', 'sk', 'boar']));    // false
-console.log(countConstruct('enterapotentpot', ['a', 'p', 'ent', 'enter', 'ot', 'o', 't']));   // true: 'enter', 'a', 'p', 'o', 't', 'ent', 'p', 'o', 't'  
-console.log(countConstruct('purple', ['purp', 'p', 'ur', 'le', 'purpl']));   // 2
+console.log('abcdef:', countConstruct('abcdef', ['ab', 'abc', 'cd', 'def', 'abcd']));    // true -> 'abc' + 'def'
+console.log('abcdef:', countConstruct('abcdef', ['ab', 'abc', 'cd', 'def', 'abcd', 'ef', 'c']));    // true -> 'abc' + 'def'
+console.log('skateboard:', countConstruct('skateboard', ['bo', 'rd', 'ate', 't', 'ska', 'sk', 'boar']));    // false
+console.log('enterapotentpot:', countConstruct('enterapotentpot', ['a', 'p', 'ent', 'enter', 'ot', 'o', 't']));   // true: 'enter', 'a', 'p', 'o', 't', 'ent', 'p', 'o', 't'  
+console.log('purple:', countConstruct('purple', ['purp', 'p', 'ur', 'le', 'purpl']));   // 2
 console.log(countConstruct('eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeef', [
    'e', 'ee', 'eee', 'eeee', 'eeeee', 'eeeeee'
 ]));  // false

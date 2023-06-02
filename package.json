@@ -1,0 +1,23 @@
+{
+  "name": "learn-dynamic-programming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adchawla/learningDynamicProgramming.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adchawla/learningDynamicProgramming/issues"
+  },
+  "homepage": "https://github.com/adchawla/learningDynamicProgramming#readme",
+  "devDependencies": {
+    "jasmine": "^5.0.0"
+  }
+}
